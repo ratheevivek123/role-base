@@ -32,7 +32,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        `http://localhost:7000/api/users/register`,
+        `${baseURL}/api/users/register`,
         formData
       );
       setSuccess("Registration successful!");

@@ -15,7 +15,7 @@ app.use(express.json()); //built-in middlewares
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Your frontend's origin
+  origin: "https://role-base.onrender.com", // Your frontend's origin
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 };
 
