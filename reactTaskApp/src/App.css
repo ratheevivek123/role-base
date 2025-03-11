@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: beige;
+}
+#tasklist::-webkit-scrollbar {
+  display: none;
+}
+#vivek::-webkit-scrollbar {
+  display: none;
+}
+
+
